@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: $green;
+    color: $white;
+}
+
+body{
+    color: $white;
+    background-color: $bg;
+    font-size: 15px;
+}
+
+ul,a,li {
+    list-style-type: none;
+    text-decoration: none;
+    color: $white;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    padding: 64px 0;
+}
+
+.btn {
+    background-color: transparent;
+    color: $white;
+    font-size: 15px;
+    border: 1px solid $white;
+    padding: 7px 28px;
+    border-radius: 3px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: $bg;
+}
