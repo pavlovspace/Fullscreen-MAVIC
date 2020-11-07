@@ -1,39 +1,29 @@
 .header{
-    background-image: url(../img/bg.jpg);
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    position: fixed;
     text-align: center;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0 64px;
-    height: 70px;
 }
 .navbar-logo {
-    padding-top: 50px;
+    padding-top: 21px;
     display: flex;
     img{
         height: 27px;
         padding-right: 11px;
     }
 }
-.navbar-title {
-    font-size: 18px;
-}
+
 .navbar-menu {
     display: flex;
     justify-content: space-between;
     width: 581px;
-    padding-top: 50px;
+    padding-top: 24px;
 }
 .navbar-menu__item {
     cursor: pointer;
@@ -45,47 +35,8 @@
 }
 
 .navbar-num {
-    padding-top: 43px;
+    padding-top: 17px;
     font-weight: bold;
     font-size: 16px;
 }
 
-.header-content {
-    margin-top: 144px;
-    text-align: center;
-}
-.header-content__title {
-    font-size: 96px;
-    margin-bottom: 25px;
-}
-.header-content__img {
-    margin-bottom: 26px;
-}
-.header-content__aside {
-    width: 320px;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 17px;
-    margin-bottom: 35px;
-}
-
-.header-btn{
-    width: 220px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 13px;
-}
-
-.header-btn__item{
-    transition: all .5s;
-
-}
-.header-btn__item:hover{
-    opacity: .5;
-}
-
-.header-down{
-    width: 100%;
-    text-align: center;
-}

@@ -1,0 +1,50 @@
+.first-screen{
+    background-image: url(../images/bg.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.first-screen__content {
+    padding-top: 144px;
+    text-align: center;
+}
+
+.content__title {
+    font-size: 96px;
+    margin-bottom: 25px;
+}
+
+.content__img {
+    margin-bottom: 26px;
+}
+
+.content__aside {
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.first-screen__social{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 13px;
+}
+
+.social__item{
+    transition: all .5s;
+
+}
+.social__item:hover{
+    opacity: .5;
+}
+
+.scroll-btn{
+    width: 100%;
+    text-align: center;
+}

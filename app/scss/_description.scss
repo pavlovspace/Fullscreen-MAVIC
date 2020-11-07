@@ -1,0 +1,39 @@
+.description {
+}
+
+.description-title{
+}
+
+.description-inner {
+    display: flex;
+    justify-content: space-around;
+    height: 480px;
+}
+
+.description__text {
+    width: 440px;
+    margin-top: 55px;
+    font-size: 17px;
+}
+
+.text-desc:first-child {
+    padding-bottom: 25px;
+}
+
+.description-slider {
+    display: flex;
+    align-items: flex-end;
+}
+
+.description-slider__text {
+}
+
+.description-slider__box {
+
+}
+
+.box-item {
+}
+
+.box-item__img {
+}

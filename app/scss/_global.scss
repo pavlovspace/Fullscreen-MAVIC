@@ -28,7 +28,7 @@ ul,a,li {
 }
 
 .container{
-    padding: 64px 0;
+    padding: 0 64px;
 }
 
 .btn {
@@ -46,4 +46,22 @@ ul,a,li {
 .btn:hover{
     background-color: #fff;
     color: $bg;
+}
+
+.title{
+    font-size: 44px;
+    line-height: 53px;
+    padding-top: 150px;
+}
+
+h3,p{
+    margin: 0;
+}
+
+.page-section{
+    background-image: url(../images/bg2.jpg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
